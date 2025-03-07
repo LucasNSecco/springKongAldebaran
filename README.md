@@ -19,11 +19,18 @@ Siga os passos abaixo para rodar a API localmente:
 ```sh
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
-```  
-
+```
 2️⃣ **Compile e inicie o servidor:**
 ```sh
 mvn spring-boot:run
+```  
+️3️⃣ **Caso necessário, direcione para o caminho correto:**
+```sh
+cd .\springKongAldebaran\
+```  
+4️⃣ **Caso necessário, instale as dependências:**
+```sh
+mvn clean install -U
 ```  
 
 A aplicação será iniciada e estará acessível em `http://localhost:8080`.
